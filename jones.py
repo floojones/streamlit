@@ -12,6 +12,8 @@ if pagina == "Inicio":
     st.write("Es una disciplina la cual combina baile, gimnasia y acrobacias para animar a equipos deportivos y tambien para competir, No se trata solo de gritar, sino de crear rutinas llenas de energia")
     st.write("En resumen, la tematica gira en torno a la alegria, motivacion y la union del grupo, mostrando siempre entusiasmo y fuerza para contagiar a los demas")
     st.video("topgun.mp4") 
+    color = st.color_picker("Pick A Color", "#00f900")
+    st.write("The current color is", color)
     st.link_button ("presentacion navarro" , "https://youtu.be/-mw6xeSkR7w?si=bYL6RHEH3Pg6XIvh")
 
 
@@ -55,4 +57,5 @@ elif pagina == "Quiénes somos":
     st.write("Somos un equipo ficticio creado para este proyecto. Nuestro lema: *'Fly high, shine bright'* 🌟")
     st.image("equipo.jpg")
     st.write(" Ubicación: Talagante, Chile")
+
     st.write(" Contacto: cheerpower@ficticio.com")
