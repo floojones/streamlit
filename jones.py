@@ -12,12 +12,12 @@ if pagina == "Inicio":
 if agree:
     st.write("Vamos!")
     st.image("navarro.jpg", caption="La energía del cheer")
+    color = st.color_picker("selecciona el color mas parecido al traje", "#00f900")
+    st.write("el color es ", color)
     st.write("El cheerleading es más que un deporte: es disciplina, trabajo en equipo y pasión. 💖✨")
     st.write("Es una disciplina la cual combina baile, gimnasia y acrobacias para animar a equipos deportivos y tambien para competir, No se trata solo de gritar, sino de crear rutinas llenas de energia")
     st.write("En resumen, la tematica gira en torno a la alegria, motivacion y la union del grupo, mostrando siempre entusiasmo y fuerza para contagiar a los demas")
     st.video("topgun.mp4") 
-    options = ["North", "East", "South", "West"]
-    st.link_button ("presentacion navarro" , "https://youtu.be/-mw6xeSkR7w?si=bYL6RHEH3Pg6XIvh")
 
 
 elif pagina == "Historia":
@@ -62,5 +62,6 @@ elif pagina == "Quiénes somos":
     st.write(" Ubicación: Talagante, Chile")
 
     st.write(" Contacto: cheerpower@ficticio.com")
+
 
 
